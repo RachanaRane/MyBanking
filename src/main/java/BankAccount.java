@@ -6,7 +6,7 @@ public class BankAccount {
 	  
 	   System.out.println("withdrawing...");
 	   bankBalance-=amt;
-//	   bankBalance-=1;
+	   bankBalance-=1;
    }
 
 public double getBankBalance() {
