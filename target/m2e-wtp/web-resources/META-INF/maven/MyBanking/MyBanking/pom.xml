@@ -4,7 +4,15 @@
   <artifactId>MyBanking</artifactId>
   <version>1</version>
   <packaging>war</packaging>
-  <build>
+  <dependencies>
+  <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
+<dependency>
+    <groupId>org.junit.jupiter</groupId>
+    <artifactId>junit-jupiter-api</artifactId>
+    <version>5.11.1</version>
+    <scope>test</scope>
+</dependency>
+  </dependencies>  <build>
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
